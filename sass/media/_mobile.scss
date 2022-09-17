@@ -1,0 +1,233 @@
+@media (max-width: 899px) {
+    .container,
+    .header-top,
+    .header-content {
+      width: 100%;
+    }
+  
+    .header-title {
+      font-size: 42px;
+    }
+  
+    .header-content p {
+      font-size: 20px;
+    }
+  
+    /* main */
+    .main {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  
+    .main-row {
+      flex-direction: row-reverse;
+      margin-bottom: 60px;
+    }
+  
+    .main-row:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  
+    .main-img {
+      width: 170px;
+      margin-right: 30px;
+      flex-shrink: 0;
+    }
+  
+    .main-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .main-content {
+      width: auto;
+    }
+  
+    .main-header {
+      font-size: 42px;
+    }
+  
+    .main-content-text {
+      font-size: 16px;
+    }
+  
+    .button {
+      height: 46px;
+      font-size: 18px;
+      padding-left: 30px;
+      padding-right: 30px;
+      line-height: 46px;
+    }
+  
+    /* footer */
+    .footer {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .footer-row {
+      flex-wrap: wrap;
+    }
+  
+    .footer-copyright {
+      order: 1;
+      width: auto;
+    }
+  
+    .footer-widgets-wrapper {
+      width: 100%;
+      padding-top: 0;
+      margin-bottom: 33px;
+    }
+  
+    .footer-widgets-wrapper > * {
+      width: calc(50% - 15px);
+    }
+  
+    .footer-widget + .footer-widget {
+      margin-left: 30px;
+    }
+  
+    /* inner-page-tours */
+    .header-inner {
+      height: 80px;
+    }
+  
+    .header-inner .logo {
+      font-size: 30px;
+    }
+  
+    .inner-page {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .cards-first-row {
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+  
+    .cards-second-row-column > * + * {
+      margin-top: 0;
+    }
+  
+    .cards-second-row {
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+  
+    .cards-second-row-column {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* margin-bottom: 30px; */
+    }
+  
+    .cards-second-row-column:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  
+    .card-link-wrapper + .card-link-wrapper {
+      width: 570px;
+      height: auto;
+      margin-top: 30px;
+    }
+  
+    .card-title-wripper {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  
+    /* .card {
+      margin-bottom: 30px;
+    } */
+  
+    .card.small:last-child {
+      margin-bottom: 0;
+    }
+  
+    /* article-page */
+    .inner-page.tracking {
+      padding-top: 20px;
+      padding-bottom: 60px;
+    }
+  
+    .row-article-page {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .article-page-nav {
+      width: 100%;
+    }
+  
+    .article-page-nav-list a {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+  
+    .article-page-article {
+      width: 100%;
+      font-size: 16px;
+      line-height: 1.63;
+    }
+  
+    .article-page-nav-title {
+      margin-bottom: 20px;
+    }
+  
+    .article-page-article {
+      margin-bottom: 28px;
+      font-size: 16px;
+    }
+  
+    .article-page-article h1 {
+      margin-bottom: 20px;
+      font-size: 42px;
+    }
+  
+    .article-page-article img {
+      margin: 20px auto;
+    }
+  
+    .article-page-nav-list {
+      line-height: 1.36;
+    }
+  
+    /* contacts */
+    .inner-page {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      margin-bottom: 0;
+      width: 570px;
+    }
+  
+    .contacts-header {
+      /* text-align: center; */
+      display: block;
+      margin-bottom: 30px;
+      font-size: 42px;
+    }
+  
+    .contact-block + .contact-block {
+      margin-left: 0;
+    }
+  
+    .contact-block {
+      margin-bottom: 25px;
+    }
+  
+    .contact-block-body iframe {
+      width: 570px;
+    }
+  
+    .form {
+      padding: 30px;
+      width: 570px;
+    }
+  }

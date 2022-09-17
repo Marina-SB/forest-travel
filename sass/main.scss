@@ -1,0 +1,21 @@
+// Base
+@import "./base/base";
+
+// Blocks
+@import "./blocks/button.scss";
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/main";
+@import "./blocks/footer";
+@import "./blocks/card";
+@import "./blocks/article";
+@import "./blocks/contacts";
+@import "./blocks/form";
+@import "./blocks/radio";
+@import "./blocks/checkbox";
+@import "./blocks/ui";
+
+// Media
+@import "./media/tablet";
+@import "./media/mobil";
+@import "./media/mobilexs"

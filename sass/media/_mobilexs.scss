@@ -1,0 +1,265 @@
+@media (max-width: 599px) {
+    .container {
+      width: 320px;
+    }
+  
+    .header-top,
+    .header-content {
+      width: 100%;
+    }
+  
+    .logo {
+      font-size: 30px;
+    }
+  
+    .header-title {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+  
+    .header-content p {
+      font-size: 18px;
+    }
+  
+    /* main */
+    .main {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .main .container {
+      width: 100%;
+    }
+  
+    .main-row {
+      flex-direction: column-reverse;
+      margin-bottom: 40px;
+    }
+  
+    .main-row:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+  
+    .main-img {
+      width: auto;
+      height: 150px;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .main-header {
+      font-size: 28px;
+    }
+  
+    /* footer */
+    .footer {
+      text-align: center;
+    }
+  
+    .footer-row {
+      flex-direction: column;
+    }
+  
+    .footer-widgets-wrapper {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0;
+    }
+  
+    .footer-widget-servises {
+      display: block;
+    }
+  
+    .footer-widget + .footer-widget {
+      margin-left: 0;
+    }
+  
+    .footer-widget {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .footer-widgets-wrapper {
+      padding-top: 0;
+    }
+  
+    .footer-widgets-wrapper > * {
+      width: 100%;
+    }
+  
+    .footer-widget-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .footer-widget-list {
+      font-size: 16px;
+    }
+  
+    .footer-widget-list li {
+      margin-bottom: 11px;
+    }
+  
+    .footer-logo {
+      margin-bottom: 10px;
+    }
+  
+    /* inner-page-tours */
+    .inner-page-tours-header {
+      margin-bottom: 30px;
+    }
+  
+    .cards-first-row {
+      margin-bottom: 20px;
+    }
+  
+    .card-link-wrapper + .card-link-wrapper {
+      margin-top: 20px;
+      width: 290px;
+    }
+  
+    .cards-second-row-column:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  
+    .card-title-wripper {
+      height: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .card-link-wrapper {
+      width: 290px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  
+    /* article-page */
+    .inner-page.tracking {
+      padding-bottom: 40px;
+    }
+  
+    .inner-page .container {
+      width: 100%;
+    }
+  
+    .article-page-article {
+      width: 100%;
+    }
+  
+    .article-page-nav {
+      margin-top: 0;
+    }
+  
+    .article-page-nav-list a {
+      padding-top: 5px;
+      padding-bottom: 9px;
+    }
+  
+    .article-page-nav-title {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+  
+    .article-page-nav-list {
+      font-size: 16px;
+    }
+  
+    .article-page-article h1 {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+  
+    .article-page-article h2 {
+      line-height: 1;
+    }
+  
+    .article-page-article h3 {
+      line-height: 1;
+    }
+  
+    /* contacts */
+    .contact-info {
+      width: 290px;
+    }
+  
+    .main-header {
+      line-height: 1;
+    }
+  
+    .contact-block {
+      margin-bottom: 17px;
+    }
+  
+    .contact-block-title {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+  
+    .contact-list-icon {
+      padding-left: 33px;
+    }
+  
+    .contact-block-body {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    .contact-block-body iframe {
+      width: 290px;
+      height: 157px;
+    }
+  
+    .form {
+      padding: 20px 15px 30px;
+      width: 290px;
+    }
+  
+    .form-title {
+      font-size: 24px;
+    }
+  
+    .form-group-title {
+      font-size: 18px;
+    }
+  
+    .form-group {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    .form-group-row {
+      flex-direction: column;
+    }
+  
+    .form-group-row > .input + .input {
+      margin-left: 0;
+    }
+  
+    .form-group-input > .input:last-child {
+      margin-top: 10px;
+    }
+  
+    .form-group:last-of-type {
+      margin-bottom: 26px;
+    }
+  
+    .radio-row {
+      margin-bottom: 9px;
+    }
+  
+    .checkbox-row {
+      margin-bottom: 21px;
+    }
+  
+    .checkbox-row:last-child {
+      margin-bottom: 0;
+    }
+  
+    .custom-checkbox {
+      margin-right: 16px;
+    }
+  }
+  
